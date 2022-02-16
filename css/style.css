@@ -1,0 +1,149 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ticket{
+    width: 40%;
+    background-color: rgb(236, 248, 248);
+}
+
+.searc{
+    width: 60%;
+    background-color: rgb(220, 250, 250);
+}
+
+.ddd{
+    display: flex;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(63, 63, 248);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+.buttons{
+    width: 100%;
+}
+
+.btn{
+    width: 24%;
+    height: 70px;
+    border: 1px solid #000;
+}
+
+.btn:active{
+    background-color: #198753;
+    color: #fff;
+}
+
+.btn__text{
+    text-transform: capitalize;
+}
+
+.best__text{
+    width: 200px;
+    font-size: 22px;
+    
+}
+
+.form-control{
+    width: 100%;
+}
+
+.rr{
+    display: flex;
+}
+
+
+.searc__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 16px;
+    border-radius: 100px !important;
+}
+
+.searc__link{
+    text-decoration: none;
+    color: #000;
+}
+
+.box{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pagination{
+    padding-bottom: 10px;
+}
+
+.pp{
+    border: 1px solid #000;
+}
+
+.linkk{
+    text-decoration: none;
+    color: #000;
+}
+
+.ll{
+    list-style: none;
+}
+
+img{
+    width: 150px;
+}
+
+.stop{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 100px;
+    background-color: #000;
+}
+
+.stop:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.stopp{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 100px;
+    background-color: red;
+}
+
+.stopp{
+    color: #fff;
+    background-color: #000;
+}
+
+@media screen and (max-width: 1120px) {
+    .ddd{
+        flex-direction: column;
+    }
+
+    .ticket{
+        width: 100%;
+    }
+
+    .searc{
+        width: 100%;
+    }
+}
