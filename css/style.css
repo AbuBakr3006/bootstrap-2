@@ -131,7 +131,7 @@ img{
 
 .stopp{
     color: #fff;
-    background-color: #000;
+    background-color: red;
 }
 
 @media screen and (max-width: 1120px) {
@@ -147,3 +147,5 @@ img{
         width: 100%;
     }
 }
+
+
